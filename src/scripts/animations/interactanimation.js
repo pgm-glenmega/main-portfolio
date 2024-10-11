@@ -1,4 +1,4 @@
-import gsap from "gsap";
+
 
 // Select the span and the image
 const interactTitle = document.querySelector('.interact');

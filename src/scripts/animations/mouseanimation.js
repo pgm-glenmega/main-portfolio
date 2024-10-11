@@ -1,4 +1,4 @@
-import gsap from 'gsap';
+
 
 const $circle = document.getElementById('circle');
 export const mouseMove = () => {
