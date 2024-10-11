@@ -559,6 +559,39 @@ header .nav-component .black {
   color: #000;
 }
 
+.video-modal {
+  z-index: 1000;
+  background-color: #000c;
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modal-content {
+  text-align: center;
+  width: 80%;
+  max-width: 800px;
+  margin: 10% auto;
+  padding: 20px;
+}
+
+.modal-content video {
+  width: 100%;
+  height: auto;
+}
+
+.close-modal {
+  color: #fff;
+  cursor: pointer;
+  font-size: 24px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
 .contact-section {
   color: #fff;
   background-color: #6301ad;
