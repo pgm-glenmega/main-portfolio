@@ -1,0 +1,2 @@
+var e=globalThis,r={},t={},l=e.parcelRequire2041;null==l&&((l=function(e){if(e in r)return r[e].exports;if(e in t){var l=t[e];delete t[e];var a={id:e,exports:{}};return r[e]=a,l.call(a.exports,a,a.exports),a.exports}var i=Error("Cannot find module '"+e+"'");throw i.code="MODULE_NOT_FOUND",i}).register=function(e,r){t[e]=r},e.parcelRequire2041=l),l.register;var a=l("aiB8Q"),i=l("5h3q0"),o=l("icE8s"),u=l("gxooe"),n=l("lbLlJ");(0,o.default)(),(0,n.default)(),(0,u.default)(),(0,a.default)(),(0,i.default)();
+//# sourceMappingURL=portfolio.d8f07a42.js.map
