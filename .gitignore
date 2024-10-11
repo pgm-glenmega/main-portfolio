@@ -1,0 +1,19 @@
+# Node modules directory (dependencies installed via npm)
+node_modules/
+
+# Parcel cache (used for build optimization)
+.parcel-cache/
+
+# Log files (optional but useful to ignore)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE/editor settings (optional, if you want to ignore your local editor settings)
+.vscode/
+.idea/
+*.code-workspace
+
+# OS-specific files (optional, for Mac and Windows)
+.DS_Store  # macOS
+Thumbs.db  # Windows
