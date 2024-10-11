@@ -294,8 +294,11 @@
           </div>
         </div>
         <div class="contact-container">
-          <!-- Contact Form -->
-          <form class="contact-form" action="submit_form.php" method="POST">
+          <form
+            class="contact-form"
+            action="https://formspree.io/f/meoqqqzz"
+            method="POST"
+          >
             <label for="name">Your Name</label>
             <input
               type="text"
@@ -391,7 +394,6 @@
         function openModal(videoUrl) {
           console.log("Opening modal for video: ", videoUrl);
 
-          // Check if it's a YouTube link
           if (videoUrl.includes("youtube.com")) {
             // Extract the video ID from the YouTube URL and embed it in the iframe
             const videoId = new URL(videoUrl).searchParams.get("v");
