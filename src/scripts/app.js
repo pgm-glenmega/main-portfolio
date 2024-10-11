@@ -9,6 +9,8 @@ import interactAnimation from "./animations/interactanimation.js";
 //class functions
 import headerBackground from "./functions/headerBackground.js";
 
+gsap.registerPlugin(ScrollTrigger);
+
 const executeAnimations = () => {
   mouseMove();
   headerBackground();
