@@ -50,10 +50,10 @@ header.scrolled {
 }
 
 .nav-component ul li a {
-  position: relative; 
+  position: relative;
   padding: 10px;
   font-size: 1.2rem;
-  overflow: hidden; /* Prevent overflow from the pseudo-element */
+  overflow: hidden;
   font-family: "popins", sans-serif;
 }
 
@@ -113,24 +113,24 @@ header.scrolled {
   margin: 0;
   z-index: 1;
   overflow: hidden;
-  opacity: 1; 
-  transition: transform 0.7s ease-in-out; 
+  opacity: 1;
+  transition: transform 0.7s ease-in-out;
 }
 
 .hero-component h1::after {
-  content: ""; /* Create an empty pseudo-element */
+  content: "";
   position: absolute;
   left: 0;
-  bottom: 0; 
-  width: 100%; 
-  height: 3px; 
-  background-color: var(--text--white); 
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background-color: var(--text--white);
   transform: scaleX(0);
   transition: transform 0.5s ease-in-out;
 }
 
 .hero-component h1:hover::after {
-  transform: scaleX(1); 
+  transform: scaleX(1);
 }
 
 @media (min-width: 768px) {
@@ -157,7 +157,7 @@ header.scrolled {
 }
 
 .quote-first {
-  transform: translateX(0vw); 
+  transform: translateX(0vw);
 }
 
 .quote-second {
@@ -165,7 +165,7 @@ header.scrolled {
 }
 
 .quote-third {
-  transform: translateX(4vw); 
+  transform: translateX(4vw);
 }
 
 @media (min-width: 768px) {
@@ -322,7 +322,6 @@ header.scrolled {
   margin-bottom: 0.5rem;
 }
 
-/* Media Queries for Larger Screens */
 @media (min-width: 768px) {
   .skill-card {
     width: 320px;
@@ -456,25 +455,25 @@ a.email-link {
 .interact {
   position: relative;
   cursor: pointer;
-  display: inline-block; /* Ensure it's treated as a block for the underline */
-  color: blue; 
+  display: inline-block;
+  color: blue;
 }
 
 .interact::after {
-  content: ""; /* Create an empty pseudo-element for the underline */
+  content: "";
   position: absolute;
-  left: 0; 
-  bottom: 0; 
-  width: 100%; /* Full width of the span */
-  height: 1px; 
-  background-color: blue; 
-  transform: scaleX(0); 
-  transform-origin: left; /* Ensure the line expands from the left */
-  transition: transform 0.5s ease-in-out; 
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: blue;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease-in-out;
 }
 
 .interact:hover::after {
-  transform: scaleX(1); 
+  transform: scaleX(1);
 }
 
 .title-container h1 {
@@ -488,12 +487,12 @@ a.email-link {
 
 .slide-img {
   position: absolute;
-  bottom: -30px; 
+  bottom: -30px;
   left: 36%;
-  transform: translateX(-50%) translateY(20px); 
-  width: 30px; 
+  transform: translateX(-50%) translateY(20px);
+  width: 30px;
   opacity: 0;
-  transition: opacity 0.3s ease; 
+  transition: opacity 0.3s ease;
 }
 
 .project-section {
@@ -505,25 +504,25 @@ a.email-link {
 
 .project {
   margin: 2rem;
-  position: relative; 
-  overflow: hidden; 
+  position: relative;
+  overflow: hidden;
   width: 100%;
 }
 
 .project-image {
   width: 100%;
   height: auto;
-  object-fit: cover; 
-  transition: transform 0.7s ease-in-out; 
+  object-fit: cover;
+  transition: transform 0.7s ease-in-out;
 }
 
 .project-title,
 .project-description {
-  position: absolute; 
-  left: 1rem; 
+  position: absolute;
+  left: 1rem;
   color: white;
-  z-index: 2; 
-  text-align: left; 
+  z-index: 2;
+  text-align: left;
 }
 
 .project-title {
@@ -565,12 +564,12 @@ a.email-link {
   .project-image {
     width: 100%;
     height: 100%;
-    object-fit: cover; 
-    transition: transform 0.7s ease-in-out; 
+    object-fit: cover;
+    transition: transform 0.7s ease-in-out;
   }
 
   .project-image:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
   }
 }
 
@@ -579,14 +578,14 @@ header .nav-component .black {
 }
 
 .video-modal {
-  display: none; 
+  display: none;
   position: fixed;
   z-index: 1000;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8); 
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .modal-content {
@@ -610,7 +609,6 @@ header .nav-component .black {
   color: white;
   cursor: pointer;
 }
-
 
 /* contact.html */
 
@@ -663,13 +661,13 @@ header .nav-component .black {
 }
 
 .submit-button {
-  padding: 0.8rem 1.5rem; 
+  padding: 0.8rem 1.5rem;
   background-color: rgba(255, 255, 255, 0.1);
   color: white;
   border: 2px solid white;
   border-radius: 5px;
   cursor: pointer;
-  align-self: flex-end; 
+  align-self: flex-end;
   font-size: 0.9rem;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
